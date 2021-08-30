@@ -124,7 +124,7 @@ http接続とhttps接続でIPアドレスが違うこと、httpsでSquidサー�
 ネットワーク設定が間違っているとタイムアウトになります。
 
 ## Misskeyに設定
-**Misskeyのdefault.ymlへ、下記のように追加してください。**
+**Misskeyのdefault.ymlへ、proxy設定を下記のように追加してください。**
 
 ```
 proxy: http://SquidサーバーのIPアドレス:3128
