@@ -1,6 +1,6 @@
 MisskeyサーバーのIPアドレスを完全に秘匿するためには、Summaly Proxyだけでは不十分です。  
 「連合のinboxに投稿を送信する」「連合のファイルを取ってくる」など、Misskeyサーバーから外に向かって通信をする際には、アクセス先のサーバーにIPアドレスがわかってしまいます。  
-ActivityPubの使用上、インスタンス運営者でなくとも[簡単にIPアドレスを入手](https://gist.github.com/cutiful/4f36da3ed37b24f9a7106064393f5e7f)できてしまいます。
+ActivityPubの仕様上、インスタンス運営者でなくとも[簡単にIPアドレスを入手](https://gist.github.com/cutiful/4f36da3ed37b24f9a7106064393f5e7f)できてしまいます。
 
 アクセスしたサーバーに対してIPアドレスを教えないために、Misskeyにはそういった外向き通信にプロキシを用いる設定があります。
 
